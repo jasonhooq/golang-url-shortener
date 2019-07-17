@@ -1,13 +1,16 @@
 golang_url_shortener:
   image: mxschmitt/golang_url_shortener
   ports:
-    - 8080:8080
+    - 8081:8080
   volumes:
     - ./data:/data
   environment:
-    - GUS_BASE_URL=https://s.b0n.pl
+    - GUS_BASE_URL=http://localhost:8081
     - GUS_GOOGLE_CLIENT_ID=
     - GUS_GOOGLE_CLIENT_SECRET=
+    - GUS_BACKEND=redis
+    - GUS_REDIS_HOST=
+    - GUS_REDIS_PASSWORD=
     - GUS_GITHUB_CLIENT_ID=
     - GUS_GITHUB_CLIENT_SECRET=
     - GUS_MICROSOFT_CLIENT_ID=

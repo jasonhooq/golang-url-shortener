@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Segment, Header, Form, Input, Card, Button } from 'semantic-ui-react'
+import toastr from 'toastr'
 
 import util from '../util/util'
 import CustomCard from '../Card/Card'

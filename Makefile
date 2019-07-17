@@ -1,3 +1,4 @@
+
 all: buildNodeFrontend getCMDDependencies embedFrontend getGoDependencies runUnitTests buildProject
 
 runUnitTests:
