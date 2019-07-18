@@ -31,13 +31,6 @@
 
 ![Generate ShareX Configuration](https://user-images.githubusercontent.com/17984549/32700395-cf9f057a-c7c4-11e7-9d2b-7523c8a95a20.png)
 
-## Documentation
-
-- [Installation](https://github.com/mxschmitt/golang-url-shortener/wiki/Installation)
-- [Configuration](https://github.com/mxschmitt/golang-url-shortener/wiki/Configuration)
-- [Setting up OAuth](https://github.com/mxschmitt/golang-url-shortener/wiki/Setting-up-OAuth)
-- [ShareX Usage](https://github.com/mxschmitt/golang-url-shortener/wiki/ShareX)
-
 ## Why did you built this
 
 Only because I just want to extend my current self hosted URL shorter (which was really messy code) with some more features and learn about new techniques like:
@@ -48,3 +41,8 @@ Only because I just want to extend my current self hosted URL shorter (which was
 - Travis CI
 - Key / Value databases
 - Dockerfile and Docker Image Creation
+
+## Setting Up
+
+- [Setting up OAuth](https://github.com/mxschmitt/golang-url-shortener/wiki/Setting-up-OAuth)
+- Put the parameters in docker-compose.yml (Google OATH, Redis, etc)
