@@ -23,7 +23,7 @@
     - High performance local database with [bolt](https://github.com/boltdb/bolt)
     - Persistent non-local storage with [redis](https://redis.io/)
 
-## [Webinterface]
+## [Webinterface](https://so.sh0rt.cat)
 
 ![Short URLs](https://user-images.githubusercontent.com/17984549/32700384-955d9336-c7c4-11e7-9fab-4141a86a375c.png)
 
@@ -46,3 +46,15 @@ Only because I just want to extend my current self hosted URL shorter (which was
 
 - [Setting up OAuth](https://github.com/mxschmitt/golang-url-shortener/wiki/Setting-up-OAuth)
 - Put the parameters in docker-compose.yml (Google OATH, Redis, etc)
+
+## How to Run
+
+Build using
+```bash
+make && make buildDockerImage
+```
+
+Run this command on root directory from terminal
+```bash
+cd deployments/ && docker-compose up
+```
