@@ -23,7 +23,7 @@
     - High performance local database with [bolt](https://github.com/boltdb/bolt)
     - Persistent non-local storage with [redis](https://redis.io/)
 
-## [Webinterface](https://so.sh0rt.cat)
+## [Webinterface]
 
 ![Short URLs](https://user-images.githubusercontent.com/17984549/32700384-955d9336-c7c4-11e7-9fab-4141a86a375c.png)
 
