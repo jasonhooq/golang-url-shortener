@@ -1,5 +1,5 @@
 golang_url_shortener:
-  image: mxschmitt/golang_url_shortener
+  image: golang_url_shortener
   ports:
     - 8081:8080
   volumes:
